@@ -76,7 +76,7 @@ Parameters:
             Type: String
             Default: db.t2.medium
             AllowedValues:
-							- db.t2.micro
+              - db.t2.micro
               - db.t2.medium
               - db.m4.large
               - db.m4.xlarge
