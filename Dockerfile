@@ -9,7 +9,8 @@ WORKDIR /tmp/
 
 RUN wget https://download.jetbrains.com/teamcity/TeamCity-2018.2.4.tar.gz --no-check-certificate 
 
-RUN tar xfz TeamCity-2018.2.4.tar.gz
+RUN tar xfz TeamCity-2018.2.4.tar.gz \
+    && rm TeamCity-2018.2.4.tar.gz
 
 WORKDIR /tmp/TeamCity/bin/
 
